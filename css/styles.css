@@ -1,0 +1,261 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    background: #e6e6e6;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    margin-top: 0;
+    line-height: 1.5;
+}
+
+.clearfix::after,
+section::after,
+footer::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+[class^=col-] {
+    width: 100%;
+    margin-top: 1em;
+}
+
+[class^=col-]:first-child {
+    margin-top: 0;
+}
+
+.col-1 {
+    width: 33.333334%;
+    float: left;
+}
+
+@media (min-width: 40rem) {
+
+    [class^=col-] {
+        float: left;
+        padding: 0 .5em;
+        margin-top: 0;
+    }
+
+    [class^=col-]:first-child {
+        padding-left: 0;
+    }
+
+    [class^=col-]:last-child {
+        padding-right: 0;
+    }
+
+    .col-3 {
+        width: 50%;
+    }
+
+    .col-1 {
+        width: 16.66667%;
+    }
+}
+
+.unstyled-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+footer {
+    background: #232323;
+    color: #fff;
+    text-align: left;
+    padding: 5em 0;
+}
+
+.container {
+    width: 96%;
+    max-width: 60em;
+    margin: 0 auto;
+}
+
+.button {
+    display: inline-block;
+    font-size: 1.1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-width: 2px;
+    border-style: solid;
+    padding: 0.5em 1.5em;
+}
+
+@media (min-width: 60rem) {
+    .button {
+        font-size: 1.5rem;
+    }
+}
+
+.button-small {
+    font-size: .6rem;
+    font-weight: 700;
+}
+
+.button-accent {
+    color: #00D4EC;
+    border-color: #00D4EC;
+}
+
+.button-accent:hover,
+.button-accent:focus {
+    background: #00D4EC;
+    color: #232323;
+}
+
+header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 3em;
+}
+
+nav ul {
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 1em;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 1em;
+}
+
+nav a {
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .8rem;
+    padding: .5em;
+    color: #FFF;
+}
+
+nav a:hover,
+nav a:focus {
+    color: #DDD;
+}
+
+.home-hero {
+    background-image: url(../img/headerbackground.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10em 0;
+}
+
+#Work {
+    padding-top: 8em;
+}
+
+.home-about-textbox {
+    background-color: #232323;
+    padding: 4em;
+    width: 100vw;
+    margin-left: -2.5%;
+    outline: 2px solid #00D4EC;
+    outline-offset: -2.5em;
+    color: #FFF;
+    position: relative;
+}
+
+.home-about-textbox h1 {
+    color: #00D4EC;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: .3em;
+    background: #232323;
+    padding: 0 .25em;
+}
+
+@media (min-width: 60rem) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .home-about {
+        background-image: url("../img/clean.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 10em;
+    }
+
+    .home-about-textbox {
+        width: 50%;
+        padding: 7em;
+        margin-left: -2.5%;
+        top: -3em;
+        text-align: left;
+        box-shadow: 0 0 4em 0 rgba(0, 0, 0, 0.3)
+    }
+
+    .home-about-textbox h1 {
+        top: -1.2rem;
+        left: 8.9rem;
+        transform: translateX(0);
+    }
+}
+
+.portfolio {
+    margin: 3em 0;
+}
+
+.port-item {
+    margin: 0;
+    position: relative;
+}
+
+.port-item img {
+    display: block;
+}
+
+.port-description {
+    position: absolute;
+    z-index: 100;
+    bottom: 50%;
+    left: 5em;
+    right: 5em;
+    color: white;
+    background: rgba(0,0,0,.5);
+    padding-bottom: 1em;
+}
+
+.port-description p {
+    margin: 1em;
+}
+
+@media (min-width: 37rem) {
+    .port-item {
+        width: 50%;
+        float: left;
+    }
+}
+
+@media (min-width: 70rem) {
+    .port-item {
+        width: 25%;
+        overflow: hidden;
+    }
+
+    .port-description {
+        visibility: hidden;
+    }
+
+    .port-item:hover .port-description {
+        visibility: visible;
+    }
+}

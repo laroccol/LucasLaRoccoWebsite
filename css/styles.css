@@ -157,6 +157,55 @@ nav a:focus {
     padding: 10em 0;
 }
 
+.home-hero-small {
+    background-image: url("../img/headerbackground.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 4em 0;
+}
+
+.project-container {
+    background-color: #232323;
+    padding: 10em;
+    width: 100%;
+    outline: 2px solid #00D4EC;
+    outline-offset: -2.5em;
+    color: #FFF;
+    position: relative;
+    text-align: left;
+}
+
+.project-container h1 {
+    color: #00D4EC;
+    position: absolute;
+    top: .3em;
+    background: #232323;
+    padding: 0 .25em;
+    text-align: left;
+}
+
+.project-container img {
+    float: right;
+    width: 50%;
+    padding-left: 4em;
+}
+
+.project-container a {
+    position: absolute;
+    bottom: 8em;
+}
+
+#AboutMe {
+    height: 100%;
+}
+
+@media (min-width: 60rem) {
+    .project-container h1 {
+        top: -1.2rem;
+        left: 8.9rem;
+    }
+}
+
 #Work {
     padding-top: 8em;
 }
@@ -200,7 +249,7 @@ nav a:focus {
         margin-left: -2.5%;
         top: -3em;
         text-align: left;
-        box-shadow: 0 0 4em 0 rgba(0, 0, 0, 0.3)
+        box-shadow: 0 0 4em 0 rgba(0, 0, 0, 1)
     }
 
     .home-about-textbox h1 {
@@ -258,4 +307,8 @@ nav a:focus {
     .port-item:hover .port-description {
         visibility: visible;
     }
+}
+
+.github {
+    color: white;
 }

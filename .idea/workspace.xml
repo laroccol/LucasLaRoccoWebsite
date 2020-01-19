@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1de6ea72-f305-4332-b59a-161beadca53e" name="Default Changelist" comment="" />
+    <list default="true" id="1de6ea72-f305-4332-b59a-161beadca53e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/About.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/BusTracker.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/DCBot.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Esubmit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/LukeGame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Projects.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Resume.html" beforeDir="false" afterPath="$PROJECT_DIR$/Resume.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +28,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1UAUAgvTUaldaVrEawH3ordhWr0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -23,9 +41,16 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\piano\WebstormProjects\LLWebsite" />
+    </key>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -54,7 +79,10 @@
       <workItem from="1575776621527" duration="2480000" />
       <workItem from="1575837810486" duration="4239000" />
       <workItem from="1576178445077" duration="6598000" />
-      <workItem from="1576441891997" duration="8270000" />
+      <workItem from="1576441891997" duration="9884000" />
+      <workItem from="1576521110172" duration="5384000" />
+      <workItem from="1577810076286" duration="5790000" />
+      <workItem from="1579465466532" duration="4879000" />
     </task>
     <servers />
   </component>
@@ -62,10 +90,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1575777544603">
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579469004608">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575777544603" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579469004608" />
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1576185586639">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

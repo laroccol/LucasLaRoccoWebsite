@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Projects</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<header>
+    <a href="https://fontmeme.com/cursive-fonts/" class="logo"><img src="https://fontmeme.com/permalink/191208/a582e7339efb83d537092754a6bef3f1.png" alt="cursive-fonts" border="0"></a>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Resume.html">Resume</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="home-hero-small">
+    <div class="container" id="Work">
+    </div>
+</section>
+
+<section class="project-container" id="DCBot">
+    <h1>Discord Bot</h1>
+    <img src="img/Bot.PNG" alt="" align="right">
+    <p>This project was inspired by my discord server because some people who joined the channel liked
+    to play songs on their entrance like a walkout song. As a result of that, I thought it was a good idea
+    to make a bot that would automatically play a song when a person joined the voice channel. Every person
+    would be able to select their own song and it would be saved in a database.
+    <br />
+    <br />
+        I used Discords javascript API discord.js to create the bot and used quick db as my database. Every
+    user was able to change their song at anytime by specifying a Youtube Link along with the message specifier.
+    The link is then saved in the database where it is then pulled from to play the song when the user joins
+    the channel. I continually expand on the features of the bot, recently allowing youtube links with specific
+    timestamps to start at. There are also numerous other features of the bot including checking the weather and
+    playing small games.</p>
+    <a href="https://github.com/laroccol/IntroBot" target="_blank" class="github">GitHub Link</a>
+</section>
+
+<section class="project-container" id="Esubmit">
+    <h1>Esubmit</h1>
+    <img src="img/esubmit.png" alt="" align="right">
+    <p>Esubmit is the student-created code submittal system tool used by my school in numerous coding classes.
+        It is a website that allows students to submit their source code where it will be run and any output will be
+        run through tests specified by the instructor. Instructors can then view student submission and leave comments
+        on their code.
+    I am currently in a year long process of adding to the system and improving upon current features. We
+    have a group of four people working on it using the Scrum process.
+        <br />
+        <br />
+        The framework used to build the system is Ruby on Rails which is then run on the school network. The main feature
+        I have worked on in this project is a sloppy output feature that allows for leniency in student output. For example,
+        if a student didn't capitalize a letter in their output that the professor did, the system will ignore it and only
+        treat it as a warning. The purpose of this is to allow students to focus more on the core programming principles
+        rather than nit picking at every small detail on assignments where that is not important. We also implemented
+        a grading system that allows professors to give students grades through the website itself.
+        </p>
+    <a href="https://github.com/" target="_blank" class="github">GitHub Link: Not Available</a>
+</section>
+
+<section class="project-container" id="Game">
+    <h1>Multiplayer Game</h1>
+    <img src="img/LukeGame.PNG" alt="" align="right">
+    <p>I am very interested in games and game development and this is a project that I have spent a lot of time on
+    and that I really enjoy. My goal with this project is to create a fun and skillful game that I could play with my
+    friends. If I have nothing else to do I will most likely be working on the game constantly adding more and fixing
+    issues. Someday I want to release the game so that everybody is able to play it.
+    <br />
+    <br />
+    The game is built using Unreal Engine using a combination of C++ and the blueprint system used in the engine.
+    Current the game uses Steam to connect players together using client hosted servers. Dedicated servers are something
+    that I have experimented with and got working but the cost to upkeep them is too much money. The main thing I would
+    like to get into next with the game is designing my own assets and character models. Right now the game is mostly made
+    up of free assets from the marketplace or default engine assets. I am currently learning 3-d modelling and being able
+    to import those assets into Unreal.</p>
+    <a href="https://github.com/laroccol/LukeGame" target="_blank" class="github">GitHub Link</a>
+</section>
+
+<section class="project-container" id="Bus">
+    <h1>Bus Tracker</h1>
+    <img src="img/BusTracker.PNG" alt="" align="right">
+    <p>This was a school project I did my Sophomore year that involved taking real-time bus data from MCTS and displaying
+    that data on a map along with a table of all the desired data. The system also used a database to store data and times
+    when certain buses surpassed a speed threshold.
+    <br />
+    <br />
+    To make this project I used a combination of HTML, Javascript, and React. A mapquest API key was used to use the map where
+    the buses would be displayed. Mongo Db wa used to store data about buses going over a certain speed. This project taught
+    me the most about creating a website and storing information in a database. </p>
+    <a href="https://github.com/laroccol/laroccoBusTracker" target="_blank" class="github">GitHub Link</a>
+</section>
+
+</body>
+</html>
